@@ -1,0 +1,52 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: -webkit-linear-gradient(130deg, rgb(113, 143, 169), rgb(20, 40, 60))!important;
+  background: linear-gradient(130deg, rgb(113, 143, 169), rgb(20, 40, 60))!important;
+
+}
+.S2I {
+  color: white;
+}
+
+.S2I:visited{
+  color: white;
+}
+
+p, h2{
+  color: white;
+}
+.figure-img{
+  height: 400px;
+}
+.skills-section i{
+  color: white;
+}
+.skills-section h3{
+  color: white;
+}
+h3{
+  color: white;
+}
+.contact-me-section button{
+  background-color: white;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
