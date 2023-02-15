@@ -8,11 +8,13 @@ body{
   background: linear-gradient(130deg, rgb(113, 143, 169), rgb(20, 40, 60))!important;
 
 }
-.S2I {
+.boolean {
   color: white;
 }
-
-.S2I:visited{
+.boolean:hover{
+  color: rgb(74, 103, 131)!important;
+}
+.boolean:visited{
   color: white;
 }
 
